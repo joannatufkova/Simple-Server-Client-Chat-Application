@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="chat_input_hint">Type a message</string>
+    <string name="AddFileButton">Add File</string>
+    <string name="TransferFilesButton">Send File</string>
+    <string name="serverPortEditText">Server Port</string>
+    <string name="ConnectButton">Connect</string>
+    <string name="connectionSettingsTextView">Connection Settings</string>
+    <string name="button_startChat">Start Chat</string>
+    <string name="file_name">File name</string>
+    <string name="file_extension">File extension</string>
+    <string name="file_list">File List</string>
+    <string name="ETUsername">Username</string>
+    <string name="file_icon">File Icon</string>
+    <string name="opening_file">Opening file</string>
+    <string name="percent">0%</string>
+    <string name="process_percent">0% completed</string>
+    <string name="cancelBtn">Cancel</string>
+    <string name="retryBtn">Retry</string>
+    <string name="pauseBtn">Pause</string>
+    <string name="resumeBtn">Resume</string>
+    <string name="sentBytes">Sent: 0 bytes</string>
+    <string name="storage_full">Storage Full</string>
+    <string name="there_is_not_enough_storage_space_to_receive_the_file_please_free_up_some_space_and_try_again">There is not enough storage space to receive the file. Please free up some space and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+</resources>

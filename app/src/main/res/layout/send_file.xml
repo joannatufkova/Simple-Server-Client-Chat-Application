@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_message_send"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_gravity="end">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+
+        <!-- File icon -->
+
+        <!-- File name -->
+        <ImageView
+            android:id="@+id/file_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_file_black" />
+
+        <TextView
+            android:id="@+id/file_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <!-- File size -->
+<!--    <TextView-->
+<!--        android:id="@+id/file_size"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textAppearance="?android:textAppearanceSmall"-->
+<!--        android:textColor="@android:color/black"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+<!--         Cancel ImageButton -->
+        <ImageButton
+            android:id="@+id/cancelButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/cancelBtn"
+            android:enabled="true"
+            android:visibility="visible"
+            android:src="@drawable/ic_cancel"/>
+
+        <ImageButton
+            android:id="@+id/retryButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/retryBtn"
+            android:enabled="true"
+            android:visibility="visible"
+            android:src="@drawable/ic_retry"/>
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/pauseButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:text="@string/pauseBtn"-->
+<!--            android:enabled="true"-->
+<!--            android:visibility="visible"-->
+<!--            android:src="@drawable/ic_pause"/>-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/resumeButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:text="@string/resumeBtn"-->
+<!--            android:enabled="true"-->
+<!--            android:visibility="visible"-->
+<!--            android:src="@drawable/ic_resume"/>-->
+    </LinearLayout>
+</LinearLayout>
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/progress_bar"-->
+<!--        style="@style/Widget.AppCompat.ProgressBar.Horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="4dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/progress_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="4dp"-->
+<!--        android:text="@string/process_percent" />-->
+<!--</LinearLayout>-->
